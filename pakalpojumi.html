@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karkade</title>
 </head>
 <body>
@@ -15,13 +19,50 @@
         <ul class="nav-links">
             <li><a href="index.html">Veikals</a></li>
             <li><a href="pakalpojumi.html">Pakalpojumi</a></li>
-            <li><a href="#">Kontakti</a></li>
+            <li><a href="contacts.html">Kontakti</a></li>
         </ul>
+        <i class="material-icons menu-button" onclick="toggleMenu()">menu</i>
     </nav>
-    <div class="banner-container-home">
-        <img class="banner-image-home" src="resources/bannerhome.jpg" alt="">
-        <h1 class="banner-text-heading">Ziedu salons</h1>         
+   
+    <div class="services-section">
+        <img class="services-background" src="resources/smallbgservices-je.jpg" alt="">
+        <img class="services-background-mobile" src="resources/smallbgservices-je.jpg" alt="">
+        <div class="text-container-services">
+            
+            <img class="logo-services" src="resources/zieduserviss-logo-1586975687.jpg" alt="">
+            <ul class="services-list">
+                <p class="text-services">Ziedu piegāde Rīgā un Jūrmalā</p>
+            </ul>
+            <a href="https://www.zieduserviss.lv/lv/" target="_blank" class="srviss-btn">Pasūtīt</a>
+        </div>
+        <div class="services-gallery-grozi">
+            <p class="grozi-text-services">Ziedu pušķi</p>
+            <img src="resources/gaisa-rotalapuke.png" class="groza-img-1" alt="">
+            <img src="resources/dzeltenaisgaisumspuskis.jfif" class="groza-img-2" alt="">
+        </div>
+        <div class="services-gallery-seru">
+            <p class="grozi-text-services">Ziedu grozi</p>
+            <img src="resources/ziedu-grozs-ar-dazadiem-ziediem250.jpg" alt="" class="seru-img-1">
+            <img src="resources/ziedu-grozs-ar-roza-rozem (1)2.jpg" alt="" class="seru-img-2">
+        </div>
+        <div class="services-gallery-puski">
+            <p class="grozi-text-services">Sēru floristika</p>
+            <img src="resources/seru-vainags-dzeltenos-tonos250.jpg" alt="" class="pusku-img-1">
+            <img src="resources/seru-strauss-zalos-tonos800.jpg" alt="" class="pusku-img-2">
+        </div>
+        <div class="services-gallery-griezums">
+            <p class="grozi-text-services">Grieztie ziedi</p>
+            <img src="resources/baltas-lilijas.jpg" alt="" class="griezums-img-1">
+            <img src="resources/sarkanasgerberas.jpg" alt="" class="griezums-img-2">
+        </div>
+        <div class="services-gallery-sirdis">
+            <p class="grozi-text-services">Ziedu sirdis</p>
+            <img src="resources/sarkanu-rozu-sirds-ar-zalumiem.jpg" alt="" class="sirdis-img-1">
+            <img src="resources/baltu-ziedu-sirds.jpg" alt="" class="sirdis-img-2">
+        </div>
+        
     </div>
+    
     
 </body>
 </html>
