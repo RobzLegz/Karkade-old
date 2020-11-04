@@ -651,7 +651,8 @@ p{
 @media(min-width:1199px){
     .contact-full{
         position: relative;
-        width: 100%;
+        width: 90%;
+        margin-left: 5%;
         height: auto;
         
     }
@@ -661,14 +662,14 @@ p{
     }
     
     .info-contact-container{
-        width: 40%;
-        margin-left: 7%;
+        width: 30%;
+        margin-left: 17%;
         
     }
     .timetable-container-contacts{
-        width: 40%;
+        width: 30%;
         float: right;
-        margin-right: 7%;
+        margin-right: 17%;
         position: absolute;
         top: 0;
         margin-top: 0;
