@@ -44,6 +44,9 @@ nav{
    
     padding: 3px;
 }
+.nav-links a:hover{
+    border-bottom: 3px black solid;
+}
 .banner-container-home{
     position: relative;
     text-align: center;
@@ -129,7 +132,17 @@ h1{
     width: 30%;
     height: 90%;
 }
+.lang-menu{
+        
+   position: absolute;
+   left: -20%;
+}
 @media(max-width:1189px){
+    .lang-menu{
+        
+        position: absolute;
+        left: 0%;
+    }
     .nav-links{
         width: 60%;
     }
@@ -185,6 +198,10 @@ p{
     display: none;
 }
 @media(max-width:799px){
+    .lang-menu{
+        
+        margin-right: -75%;
+    }
     html{
         font-size: 80%;
     }
@@ -283,13 +300,14 @@ p{
     right: 8%;
     height: 40%;
     width: 40%;
-    border: 3px solid white;
     text-align: center;
 }
 .logo-services{
     margin-top: 20px;
     color: white;
     filter: brightness(0) invert(1);
+    width: 400px;
+    height: auto;
 }
 .text-services{
     display: inline-block;
@@ -675,4 +693,83 @@ p{
         margin-top: 0;
         right: 0;
     }
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.selected-lang{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+    width: 60px;
+}
+.selected-lang2{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+    width: 70px;
+}
+.selected-lang2::before{
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url("https://www.countryflags.io/us/flat/32.png");
+}
+.selected-lang::before{
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url("https://www.countryflags.io/lv/flat/32.png");
+}
+.lang-menu{
+    margin-top: 0%;
+    margin-left: -5%;
+    position: relative;
+}
+.lang-menu:hover ul{
+    display: block;
+}
+.lang-menu ul{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(193, 241, 181);
+    border: 1px solid #000000;
+    list-style: none;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.lang-menu ul li{
+    display: flex;
+    justify-content: space-between;
+}
+.lang-menu ul li:hover{
+   background-color: rgb(168, 241, 149);
+}
+.lang-menu ul li a{
+    width: 100%;
+    display:block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #000000;
+}
+.lang-menu ul li a::before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 32px;
+    height: 32px;
+    ;
+}
+.lv::before{
+    background-image: url("https://www.countryflags.io/lv/flat/32.png")
+}
+.eng::before{
+    background-image: url("https://www.countryflags.io/us/flat/32.png")
 }
