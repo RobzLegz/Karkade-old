@@ -200,7 +200,7 @@ p{
 @media(max-width:799px){
     .lang-menu{
         
-        margin-right: -75%;
+        margin-right: 0%;
     }
     html{
         font-size: 80%;
