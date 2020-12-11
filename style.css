@@ -358,6 +358,7 @@ p{
     left: 5%;
     align-items: center;
     border: 3px white solid;
+    border-radius: 20px;
     text-align: center;
     
 }
@@ -369,6 +370,7 @@ p{
     left: 5%;
     align-items: center;
     border: 3px white solid;
+    border-radius: 20px;
     text-align: center;
 }
 .services-gallery-puski{
@@ -380,6 +382,7 @@ p{
     align-items: center;
     text-align: center;
     border: 3px white solid;
+    border-radius: 20px;
 }
 .services-gallery-griezums{
     position: absolute;
@@ -390,6 +393,7 @@ p{
     align-items: center;
     text-align: center;
     border: 3px white solid;
+    border-radius: 20px;
 }
 .services-gallery-sirdis{
     position: absolute;
@@ -400,24 +404,28 @@ p{
     align-items: center;
     text-align: center;
     border: 3px white solid;
+    border-radius: 20px;
 }
 .groza-img-1{
     width: 40%;
     position: absolute;
     left: 6%;
     top: 15%;
+    border-radius: 15px;
 }
 .sirdis-img-1{
     width: 40%;
     position: absolute;
     left: 6%;
     top: 15%;
+    border-radius: 15px;
 }
 .griezums-img-1{
     width: 40%;
     position: absolute;
     left: 6%;
     top: 15%;
+    border-radius: 15px;
 }
 
 .seru-img-1{
@@ -425,42 +433,49 @@ p{
     position: absolute;
     left: 6%;
     top: 15%;
+    border-radius: 15px;
 }
 .pusku-img-1{
     width: 40%;
     position: absolute;
     left: 6%;
     top: 15%;
+    border-radius: 15px;
 }
 .groza-img-2{
     width: 40%;
     position: absolute;
     right: 6%;
     top: 15%;
+    border-radius: 15px;
 }
 .griezums-img-2{
     width: 40%;
     position: absolute;
     right: 6%;
     top: 15%;
+    border-radius: 15px;
 }
 .sirdis-img-2{
     width: 40%;
     position: absolute;
     right: 6%;
     top: 15%;
+    border-radius: 15px;
 }
 .pusku-img-2{
     width: 40%;
     position: absolute;
     right: 6%;
     top: 15%;
+    border-radius: 15px;
 }
 .seru-img-2{
     width: 40%;
     position: absolute;
     right: 6%;
     top: 15%;
+    border-radius: 15px;
 }
 .grozi-text-services{
     font-size: 20px;
@@ -635,8 +650,9 @@ p{
     width: 90%;
     margin-left: 5%;
     margin-top: 2%;
-    border: 2px black solid;
+    border: none;
     text-align: center;
+    border-radius: 10px;
 }
 .material-icons.contact-icons{
     color: black;
@@ -645,12 +661,14 @@ p{
     color: black;
     font-size: 20px;
     line-height: 24px;
+    padding: 5px;
 }
 .timetable-container-contacts{
     width: 90%;
     margin-left: 5%;
     margin-top: 2%;
-    border: 2px black solid;
+    border: none;
+    border-radius: 10px;
     text-align: center;
     margin-bottom: 2%;
 }
@@ -658,7 +676,7 @@ p{
     color: black;
     font-size: 25px;
     line-height: 25px;
-    
+    padding: 5px;
 }
 @media(min-width:899px){
     .shop-picture{
@@ -682,7 +700,8 @@ p{
     .info-contact-container{
         width: 30%;
         margin-left: 17%;
-        
+        background-color: rgb(145, 231, 123);
+        margin-bottom: 30px;
     }
     .timetable-container-contacts{
         width: 30%;
@@ -692,6 +711,7 @@ p{
         top: 0;
         margin-top: 0;
         right: 0;
+        background-color: rgb(145, 231, 123);
     }
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
@@ -743,6 +763,7 @@ p{
     position: absolute;
     top: 0;
     left: 0;
+    margin-top: 30px;
 }
 .lang-menu ul li{
     display: flex;
@@ -772,4 +793,28 @@ p{
 }
 .eng::before{
     background-image: url("https://www.countryflags.io/us/flat/32.png")
+}
+.advice-section{
+    border: 1px solid #fff;
+    width: 570px;
+    text-align: center;
+    height: 100px;
+    position: absolute;
+    left: 90%;
+    top: 250%;
+    transform: translate(-100%);
+    border-radius: 10px;
+}
+.advice-heading{
+    font-size: 30px;
+}
+.advice-link{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.advice-link:hover{
+    text-decoration: underline;
+    color: #a1cf60;
 }
