@@ -357,7 +357,7 @@ p{
     top: 3%;
     left: 5%;
     align-items: center;
-    border: 3px white solid;
+    
     border-radius: 20px;
     text-align: center;
     
@@ -369,7 +369,7 @@ p{
     top: 23%;
     left: 5%;
     align-items: center;
-    border: 3px white solid;
+    
     border-radius: 20px;
     text-align: center;
 }
@@ -381,7 +381,7 @@ p{
     left: 5%;
     align-items: center;
     text-align: center;
-    border: 3px white solid;
+    
     border-radius: 20px;
 }
 .services-gallery-griezums{
@@ -392,7 +392,7 @@ p{
     left: 5%;
     align-items: center;
     text-align: center;
-    border: 3px white solid;
+    
     border-radius: 20px;
 }
 .services-gallery-sirdis{
@@ -403,7 +403,7 @@ p{
     left: 5%;
     align-items: center;
     text-align: center;
-    border: 3px white solid;
+    
     border-radius: 20px;
 }
 .groza-img-1{
@@ -478,9 +478,10 @@ p{
     border-radius: 15px;
 }
 .grozi-text-services{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
-    margin-top: 2%;
+    padding-bottom: 40px;
+    
 }
 .services-background-mobile{
     display: none;
@@ -554,6 +555,10 @@ p{
     }
 }
 @media(max-width:799px){
+    .advice-section{
+        display: none; 
+
+    }
     .services-background-mobile{
         display: block;
         width: 100%;
@@ -563,7 +568,7 @@ p{
         margin-top: -10px;
     }
     .logo-services{
-        width: 100px;
+        width: 150px;
         height: auto;
     }
     .text-container-services{
@@ -609,6 +614,9 @@ p{
     }
 }
 @media(max-width:535px){
+    .logo-services{
+        width: 100px;
+    }
     .text-container-services{
         height: 17%;
     }
@@ -796,14 +804,17 @@ p{
 }
 .advice-section{
     border: 1px solid #fff;
-    width: 570px;
+    width: auto;
     text-align: center;
-    height: 100px;
+    height: auto;
     position: absolute;
     left: 90%;
-    top: 250%;
+    margin-top: -20%;
     transform: translate(-100%);
     border-radius: 10px;
+    position: absolute;
+    width: 40%;
+    
 }
 .advice-heading{
     font-size: 30px;
