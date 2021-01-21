@@ -1,4 +1,3 @@
-#Screenshots
 <br/>
 <br/>
 <img src="screenshots/homepagekarkadescreenshot1.png">
